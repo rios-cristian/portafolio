@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=divice-width" initial-scale="1.0">       
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>riosCristian=</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="imagenes/icono-blanco.png">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styleTex.css">
+    <link rel="stylesheet" href="css/styleNav.css">
+    <link rel="stylesheet" href="css/styleform.css">
+    <script src="./js/scrollreveal.js"></script>
+    <script src="./js/cambio.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+
+</head>
+
+<body>
+<header class="header">
+    <nav class="nav">
+        <a href="#top">
+        <img class = "logo" src="imagenes/icono-blanco-grande.png" height="70px"width="70px"/>
+        </a>
+        
+        
+        <ul class="nav-menu">
+            <li class="nav-menu-item" onclick="cambiarAMiInfo()"><a href="#sec2" class="nav-menu-link">Sobre mi</a></li> 
+            <li class="nav-menu-item" onclick="cambiarASkill()"><a href="#sec2" class="nav-menu-link">Skills</a></li>
+            <li class="nav-menu-item" ><a href="./pdf/rios_cristian2022.pdf" target="_blank" class="nav-menu-link">Descargar CV</a></li>
+            <li class="nav-menu-item" onclick="cambiarAFormacion()"><a href="#sec2" class="nav-menu-link">Formación</a></li>
+            <li class="nav-menu-item"><a href="#sec3" class="nav-menu-link">Proyectos</a></li>
+            <li class="nav-menu-item"><a href="#sec4" class="nav-menu-link">Escríbeme</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="sec1" class="contenedor-baner"  >
+      
+        <div class="baner">
+            <p class="texto">¡Hola! Mi nombre es,</p>
+            <br>
+            <h1 class="texInicio">Cristian R. Ríos</h1>
+            <br>
+            <p class="texto">Técnico en informática y Programador.</p>
+            <br>
+            <p class="texto">¡Abierto al mundo! IT</p>
+           
+        </div>  
+    </section>
+
+    <section id="sec2" class="sobre-mi" >
+           
+        <div class="contenedor-mi-foto-info">
+            <div class="contenedor-foto">
+                <img class="miFoto" src="./imagenes/miFoto.png" alt="Rios Cristian rios_cristian rios cristian foto">
+            </div>
+            <div class="contenedor-info">
+                <h2 class="titulo">Sobre mi:</h2>
+                <ul class="menu-info">
+                    <li  class="menu-info-item" onclick="cambiarAMiInfo()">Sobre mi</li> 
+                    <li  class="menu-info-item" onclick="cambiarASkill()">Skills</li>
+                    <li  class="menu-info-item" onclick="cambiarAhobbies()">Hobbies</li>
+                    <li  class="menu-info-item" onclick="cambiarAFormacion()">Formación</li>
+                </ul>
+                <div class="contenedor-texto" >
+                    <p class="tex">Soy Técnico en Informática capaz de desempeñarme en tareas de producción, diseño y mantenimiento de software.<br> Inicie mi carrera profesional como asistente administrativo. Hoy busco la oportunidad de formar parte de "proyectos IT", desafiantes con grandes metas y objetivos claros, en los cuales pueda aprender y mejorar mis habilidades y metodologías de trabajo.
+                        </p>
+                </div>
+
+                <div class="contenedor-lista-skill invisible" >
+                    <ul class="skills">
+                        <li class="skill-lista"><img src="imagenes/htmlcolorchico.png"/>HTML</li> 
+                        <li class="skill-lista"><img src="imagenes/csscolorchico.png"/>CSS</li>
+                        <li class="skill-lista"><img src="imagenes/jscolorchico.png"/>JAVASCRIPT</li>
+                        <li class="skill-lista"><img src="imagenes/vbcolorchico.png"/>VISUAL BASIC</li>
+                    </ul>
+                </div>
+
+                <div class="contenedor-lista-hobbies invisible">
+                    <p class="tex" >Soy muy familiar, me encanta pasar la mayor cantidad de tiempo de calidad con mi familia y amigos, entre las cosas que más me gusta hacer es viajar, poder darnos esos tiempos para conocer lugares, costumbres y culturas.<br>
+                        Nunca faltan momentos de ocio con video juegos, si son de estrategia mucho mejor.<br>
+                        Eso si siempre pero siempre viendo que aprender, intento no quedarme estancado así que le doy sus buenas horas al estudio, desde realizar algún curso o leer algún articulo para ir mejorando en lo que mas me apasiona que es la programación.
+                         </p>
+                </div>
+                <div class="contenedor-formacion invisible" >
+                    <p class="tex">Inicie mi formación en la <a href="https://sites.google.com/view/tecnica1montegrande/inicio" target=”_blank”>Escuela de Educación Secundaria Técnica N°1 de Esteban Echeverria</a>.<br>Cuento con capacidad de análisis para la resolución de problemas y experiencia en la gestión de equipos, estudie estructura de datos, algoritmos, bases de datos y redes. <br> También, me encuentro desarrollando el curso de Full-Stack dictado por <a href="https://www.oracle.com/ar/education/oracle-next-education/#curso" target=”_blank”>Oracle Next Education</a>.<br>
+                        Además, para seguir mejorando sigo capacitandome, realizando varios cursos en la plataforma de Alura. </p>
+                </div>
+                
+            </div>
+        </div>
+     </section>
+
+
+     <section id="sec3" class="portafolio">
+         <h2 class="titulo-separar">Portafolio:</h2>
+        <div class="contenedor-portafolio">
+           <ul class="trabajos">
+
+               <li class="lista-trabajos">
+                   <img class="imagen-cuadro" src="imagenes/encriptador-imagen.png" alt="encriptador">
+                   <div class="titulo-trabajos">
+                       <h3>Encriptador de Textos</h3>
+                       <p>El ENCRIPTADOR te permite cifrar y descifrar información. Esta herramienta además, puede pasar tus mensajes cifrados a un archivo (.TXT).
+                         </p>
+                   </div> 
+                   <div class="botones-trabajos">
+                    <ul class="nav-menu boton-portafolio">
+                        <li  class="boton-demo"><a class="nav-menu-link" href="https://rios-cristian.github.io/Challenge-Oracle-ONE/" target="_blank">Demo</a></li> 
+                        <li  class="boton-codigo"><a class="nav-menu-link" href="https://github.com/rios-cristian/Challenge-Oracle-ONE" target="_blank">Codigo</a></li>                       
+                    </ul>
+                   </div>                  
+                </li>
+
+               <li class="lista-trabajos">
+                <img class="imagen-cuadro" src="imagenes/ahorcado-imagen.png" alt="Juego del Ahorcado">
+                <div class="titulo-trabajos">
+                    <h3>Juego del Ahorcado</h3>
+                    <p>El “Ahorcado” es un juego de adivinanza de palabras cuya finalidad es que los participantes descifren el significado de las mismas sin ser “ahorcados” por los desaciertos.
+                      </p>
+                </div> 
+                <div class="botones-trabajos">
+                 <ul class="nav-menu boton-portafolio">
+                     <li  class="boton-demo"><a class="nav-menu-link" href="https://rios-cristian.github.io/SegundoChallengerOracleONE/" target="_blank">Demo</a></li> 
+                     <li  class="boton-codigo"><a class="nav-menu-link" href="https://github.com/rios-cristian/SegundoChallengerOracleONE" target="_blank">Codigo</a></li>                       
+                 </ul>
+                </div>                  
+                </li>
+
+               <li class="lista-trabajos">
+                <img class="imagen-cuadro" src="imagenes/mi-web-imagen.png" alt="Mi Pagina Web">
+                   <div class="titulo-trabajos">
+                       <h3>Mi Pagina Web</h3>
+                       <p>Mi Página de presentación.
+                         </p>
+                   </div> 
+                   <div class="botones-trabajos">
+                    <ul class="nav-menu boton-portafolio">
+                         
+                        <li  class="boton-codigo"><a class="nav-menu-link" href="">Codigo</a></li>                       
+                    </ul>
+                   </div>                  
+               </li>
+
+               <li class="lista-trabajos">
+                <img class="imagen-cuadro" src="imagenes/coming-soon.png" alt="Proximamente">
+                <div class="titulo-trabajos">
+                    <h3>Proximamente...</h3>
+                    <p>Estudiando y mejorando para crar algo para ti..
+                      </p>
+                </div> 
+                                    
+               </li>
+           </ul> 
+        </div>
+     </section>
+
+
+    <section id="sec4" class="formulario" >
+        <h2 class="titulo-separar">Contacto</h2>
+        <div class="contenedor-formulario">
+            
+                
+            <div class="cabeza">
+            
+            <p>
+                ¿Quieres contactarme? Complete el siguiente formulario y me pondré
+                en contacto con usted lo antes posible.
+            </p>
+            </div>
+            <form id="form" action="https://formspree.io/f/xbjwpzje"
+            method="POST" class="form" >
+                <div class="contenedor-form">
+                
+                <input id="nameForm" type="text" placeholder="Nombre y apellido" required/>                 
+                <input type="email" name="email" placeholder="E-mail"required/>                
+                <input  type="text" placeholder="Asunto" />
+                <textarea class="textArea" name="message" required rows="5" placeholder="Ingrese su mensaje..."></textarea>
+                <button  type="submit" >Enviar mensaje</button>
+                </div>
+            </form>
+
+
+    </section>
+
+</main>   
+    <script>
+    const $form = document.querySelector('#form')
+$form.addEventListener ("submit", handleSubmit)
+
+async function handleSubmit(event) {
+    event.preventDefault()
+    const form = new FormData(this)
+    const response = await fetch(this.action,{
+        method: this.method,
+        body: form,
+        headers: {
+            "Accept": "application/json"
+        }
+    })
+    if (response.ok){
+        this.reset()
+        swal("Gracias","Me pondre en contacto a la brevedad","success");
+    }
+}
+</script>
+<script src="./js/index.js"></script>
+</body>
+
+
+</html>
+                        
+                      
+                    
+                      
+                      
+                        
+                        
+                        
+                        
+                        
+                      
+                      
+                    
