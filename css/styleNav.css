@@ -299,3 +299,12 @@ background-color: rgb(70, 109, 218);
     justify-content: space-between;
 }
 
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(140deg,#330867,#2575fc,#330867);
+    color: aliceblue;
+    font-size: 2rem;
+
+}
