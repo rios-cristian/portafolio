@@ -43,8 +43,23 @@
     .menu-info-item{
         margin-bottom: 1rem;
     }
+    .titulo-trabajos{
+        width: auto
+    }
     .contenedor-mi-foto-info{
         display: block;
+    }
+    .contenedor-footer{
+        text-align: center;
+    }
+    .formulario{
+        text-align: -webkit-center;
+    }
+    .contenedor-formulario{
+        display: block;
+    }
+    .titulo-separar{
+        padding-left:0;
     }
 }
 .nav--abrir{
