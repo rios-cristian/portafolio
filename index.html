@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/styleTex.css">
     <link rel="stylesheet" href="css/styleNav.css">
     <link rel="stylesheet" href="css/styleform.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="./js/scrollreveal.js"></script>
     <script src="./js/cambio.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -22,11 +23,13 @@
 
 <body>
 <header class="header">
-    <nav class="nav">
-        <a href="#top">
+    <div class="menuhamburguesa" id="menuhamburguesa" onclick="abrirhamburguesa()">
+            <img src="./imagenes/hamburguesa.png">
+    </div>
+    <a href="#top" id="icono">
         <img class = "logo" src="imagenes/icono-blanco-grande.png" height="70px"width="70px"/>
-        </a>
-        
+    </a>
+    <nav class="nav" id="nav">
         
         <ul class="nav-menu">
             <li class="nav-menu-item" onclick="cambiarAMiInfo()"><a href="#sec2" class="nav-menu-link">Sobre mi</a></li> 
@@ -36,6 +39,7 @@
             <li class="nav-menu-item"><a href="#sec3" class="nav-menu-link">Proyectos</a></li>
             <li class="nav-menu-item"><a href="#sec4" class="nav-menu-link">Escríbeme</a></li>
         </ul>
+        
     </nav>
 </header>
 

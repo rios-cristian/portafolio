@@ -1,0 +1,71 @@
+@media screen and (max-width: 575px){
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+    }       
+    .header{
+        height: none;
+    }
+    .nav{
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        display: none;
+        transition: 0.5s;
+        background: rgb(85, 92, 99);
+        height: auto;
+    }
+    section:nth-child(3){
+        height: auto;
+    }
+    .trabajos{
+        display:block;
+
+    }
+    .boton-portafolio{
+        height: 100px;
+    }
+    .contenedor-foto{
+        display: none;
+
+    }
+    .menu-info{
+        display: block;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .tex{
+        width:auto;
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+    .menu-info-item{
+        margin-bottom: 1rem;
+    }
+    .contenedor-mi-foto-info{
+        display: block;
+    }
+}
+.nav--abrir{
+    transform: translateY(100%);
+}
+.menuhamburguesa img{
+max-width: 100%;
+}
+.menuhamburguesa{
+position: absolute;
+top: 1.5rem;
+right: 1.5rem;
+cursor: pointer;
+width: 40px;
+display: none;
+z-index: 1;
+}
+
+@media screen and (max-width: 768px){
+    .menuhamburguesa{
+        display:block;
+    }
+
+}
